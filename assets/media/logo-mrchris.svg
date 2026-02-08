@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="MR Chris logo placeholder">
+  <defs>
+    <radialGradient id="g" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#f6ddba"/>
+      <stop offset="100%" stop-color="#caa175"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="256" fill="#080808"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#g)" stroke-width="12"/>
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#f3e4cd" stroke-opacity="0.2" stroke-width="2"/>
+  <text x="256" y="230" fill="#f6e8d5" font-size="126" font-family="Bebas Neue,Arial,sans-serif" text-anchor="middle" letter-spacing="8">MR</text>
+  <text x="256" y="300" fill="#d7b98e" font-size="64" font-family="Bebas Neue,Arial,sans-serif" text-anchor="middle" letter-spacing="10">CHRIS</text>
+  <text x="256" y="355" fill="#f5ecde" font-size="24" font-family="Manrope,Arial,sans-serif" text-anchor="middle" letter-spacing="6">BARBERSHOP</text>
+</svg>
