@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Manrope", sans-serif;
+  font-family: "Playfair Display", serif;
   background:
     radial-gradient(circle at 8% 15%, #3b2b17 0%, transparent 36%),
     radial-gradient(circle at 92% 12%, #2c2215 0%, transparent 38%),
@@ -29,7 +29,7 @@ body {
 }
 
 .font-display {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 #scrollProgress {
@@ -160,7 +160,7 @@ body {
   border: 1px solid #f6d9b0;
   background: radial-gradient(circle at 30% 30%, #f9ddb6, #cfac7f 72%);
   color: #1f180f;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.2rem;
   letter-spacing: 0.07em;
   box-shadow: 0 20px 40px #00000073;
@@ -208,7 +208,7 @@ body {
 
 .section-title {
   margin-top: 0.9rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: clamp(2.1rem, 5vw, 3.9rem);
   line-height: 0.97;
   text-transform: uppercase;
@@ -289,7 +289,7 @@ body {
 }
 
 .stat-value {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.35rem;
   line-height: 1;
   letter-spacing: 0.05em;
@@ -316,6 +316,52 @@ body {
   border-radius: 999px;
   background: #171717;
   padding: 0.65rem 0.95rem;
+}
+
+.about-photo-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 1px solid #ffffff24;
+  background: #0f0f0f;
+  box-shadow: 0 22px 44px #0000005e;
+}
+
+.about-photo-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #00000000 45%, #0000003f 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.about-photo-frame::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: -35%;
+  width: 45%;
+  height: 180%;
+  background: linear-gradient(120deg, #ffffff00 0%, #ffffff36 50%, #ffffff00 100%);
+  transform: translateX(-220%) rotate(10deg);
+  transition: transform 1.1s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.about-photo-frame:hover::after {
+  transform: translateX(380%) rotate(10deg);
+}
+
+.about-photo-img {
+  transition: transform 0.9s ease, filter 0.5s ease;
+  filter: saturate(0.95) contrast(1.05);
+}
+
+.about-photo-frame:hover .about-photo-img {
+  transform: scale(1.08);
+  filter: saturate(1.05) contrast(1.1);
 }
 
 .service-card {
@@ -360,7 +406,7 @@ body {
 
 .service-title {
   margin-top: 0.8rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 2rem;
   letter-spacing: 0.04em;
   color: #f5ecde;
@@ -452,7 +498,7 @@ body {
 }
 
 .gallery-title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.8rem;
   letter-spacing: 0.04em;
   color: #f4e9d8;
@@ -490,7 +536,7 @@ body {
 }
 
 .video-title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.8rem;
   letter-spacing: 0.05em;
 }
@@ -639,3 +685,4 @@ body {
     transform: none !important;
   }
 }
+

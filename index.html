@@ -9,7 +9,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/media/logo-mrchris.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
@@ -79,77 +79,107 @@
       <div class="hero-grid" aria-hidden="true"></div>
 
       <div class="relative z-[2] mx-auto flex min-h-[84vh] w-[min(1200px,100%)] flex-col justify-end">
-        <div class="reveal reveal-left max-w-3xl rounded-[30px] border border-[#ffffff38] bg-[#0606069c] p-6 backdrop-blur-md sm:p-8">
+        <article class="reveal reveal-left max-w-3xl rounded-[30px] border border-[#ffffff38] bg-[#060606a8] p-6 backdrop-blur-md sm:p-8">
           <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-[#d7b98e66] bg-[#101010d1] px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#d7b98e]" data-i18n="heroBadge">
-            Mr Chris - Barbershop à Bruxelles
+            Accueil
           </p>
-          <h1 class="font-display text-5xl uppercase leading-[0.9] text-[#f5ecde] sm:text-6xl lg:text-7xl" data-i18n="heroTitle">
-            Ton style commence ici.
+          <h1 class="font-display text-5xl uppercase leading-[0.95] text-[#f5ecde] sm:text-6xl lg:text-7xl" data-i18n="heroTitle">
+            Mr Chris – Barbershop à Bruxelles
           </h1>
           <p class="mt-6 max-w-2xl text-base leading-relaxed text-[#f4eadb] sm:text-lg" data-i18n="heroSubtitle">
-            Salon masculin situé à la Rue de la Montagne 29, au coeur de Bruxelles. Dégradé moderne, coupe classique, barbe ou rasage traditionnel: un service précis, dans une ambiance humaine.
+            Salon de coiffure masculin situé à rue de la Montagne 29, en plein coeur de Bruxelles, à deux pas de la Grand-Place.
           </p>
-
-          <div class="mt-9 flex flex-wrap gap-3">
+          <div class="mt-8 flex flex-wrap gap-3">
             <a class="btn-primary" data-booking-link target="_blank" rel="noopener noreferrer" data-i18n="heroPrimaryBtn">Prendre rendez-vous</a>
             <a href="#services" class="btn-ghost" data-i18n="heroSecondaryBtn">Voir les prestations</a>
           </div>
-        </div>
+        </article>
 
-        <div class="mt-5 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
-          <div class="grid gap-4 sm:grid-cols-3">
-            <article class="stat-card reveal" data-delay="80">
-              <p class="stat-value" data-counter="10">0</p>
-              <p class="stat-label" data-i18n="statYearsLabel">Ans d'expérience</p>
-            </article>
-            <article class="stat-card reveal" data-delay="130">
-              <p class="stat-value" data-counter="1500">0</p>
-              <p class="stat-label" data-i18n="statClientsLabel">Clients stylés</p>
-            </article>
-            <article class="stat-card reveal" data-delay="180">
-              <p class="stat-value" data-counter="100">0</p>
-              <p class="stat-label" data-i18n="statStyleLabel">Sur mesure</p>
-            </article>
-          </div>
-
-          <article class="reveal reveal-right rounded-[24px] border border-[#ffffff36] bg-[#0b0b0bc7] p-5 backdrop-blur-md">
-            <p class="text-xs uppercase tracking-[0.2em] text-[#d7b98e]" data-i18n="heroQuickTitle">Réservation rapide</p>
-            <p class="mt-2 text-sm leading-relaxed text-[#f4eadb]" data-i18n="heroQuickText">
-              Choisissez coiffeur, service, date et heure en moins d'une minute.
-            </p>
-            <a class="mt-4 btn-primary w-full justify-center" data-booking-link target="_blank" rel="noopener noreferrer" data-i18n="heroQuickBtn">Je réserve maintenant</a>
+        <div class="mt-5 grid gap-4 sm:grid-cols-3">
+          <article class="stat-card reveal" data-delay="80">
+            <p class="stat-value" data-counter="10">0</p>
+            <p class="stat-label" data-i18n="statYearsLabel">Ans d'expérience</p>
+          </article>
+          <article class="stat-card reveal" data-delay="130">
+            <p class="stat-value" data-counter="1500">0</p>
+            <p class="stat-label" data-i18n="statClientsLabel">Clients stylés</p>
+          </article>
+          <article class="stat-card reveal" data-delay="180">
+            <p class="stat-value" data-counter="100">0</p>
+            <p class="stat-label" data-i18n="statStyleLabel">Sur mesure</p>
           </article>
         </div>
       </div>
     </section>
 
+    <section id="home-story" class="section-shell px-4 py-16 md:px-8">
+      <div class="mx-auto w-[min(1200px,100%)]">
+        <div class="reveal mb-8 text-center">
+          <p class="section-kicker" data-i18n="homeStoryLabel">Accueil</p>
+          <h2 class="section-title mx-auto max-w-4xl" data-i18n="homeStoryTitle">L'expérience Mr Chris</h2>
+        </div>
+        <article class="reveal mx-auto max-w-4xl rounded-3xl border border-[#ffffff24] bg-[#101010db] p-6 text-center sm:p-8">
+          <p class="mx-auto max-w-3xl text-base leading-relaxed text-[#eadfce] sm:text-lg" data-i18n="heroSubtitle2">
+            Que tu viennes pour un dégradé moderne, une coupe classique, un rasage traditionnel ou une barbe travaillée, tu seras accueilli dans un lieu à taille humaine, chaleureux et convivial. Ici, on t'écoute, on te connaît et tu te sens comme à la maison.
+          </p>
+          <p class="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-[#eadfce] sm:text-lg" data-i18n="heroSubtitle3">
+            Notre objectif : révéler l'identité de chaque homme, avec justesse et style. Être barbier, ce n'est pas seulement couper des cheveux : c'est comprendre qui tu es et mettre en valeur ce qui te rend unique.
+          </p>
+          <p class="mt-5 text-lg font-semibold text-[#f6dfbc]" data-i18n="heroPrompt">
+            Prêt à révéler votre style ?
+          </p>
+          <p class="mx-auto mt-2 max-w-2xl text-sm leading-relaxed text-[#eadfce]" data-i18n="heroCtaLine">
+            Prenez rendez-vous dès maintenant et vivez l'expérience Mr Chris
+          </p>
+          <a class="mt-5 btn-primary mx-auto justify-center" data-booking-link target="_blank" rel="noopener noreferrer" data-i18n="heroQuickBtn">Je réserve maintenant</a>
+        </article>
+      </div>
+    </section>
+
     <section id="about" class="section-shell px-4 py-20 md:px-8">
-      <div class="mx-auto grid w-[min(1200px,100%)] gap-10 lg:grid-cols-[0.95fr_1.05fr]">
-        <div class="grid gap-6">
-          <img src="assets/media/photos/a-propos.png" alt="Portrait de Chris" class="reveal h-[380px] w-full rounded-3xl border border-[#ffffff1f] object-cover" />
-          <img src="assets/media/photos/coiffage.png" alt="Intérieur du salon" class="reveal h-[220px] w-full rounded-3xl border border-[#ffffff1f] object-cover" data-delay="90" />
+      <div class="mx-auto w-[min(1200px,100%)]">
+        <div class="reveal mb-8 text-center">
+          <p class="section-kicker" data-i18n="aboutLabel">À propos</p>
+          <h2 class="section-title mx-auto max-w-5xl" data-i18n="aboutTitle">Je m'appelle Chris, coiffeur-barbier spécialisé dans l'univers masculin.</h2>
         </div>
 
-        <div class="reveal reveal-right">
-          <p class="section-kicker" data-i18n="aboutLabel">À propos</p>
-          <h2 class="section-title" data-i18n="aboutTitle">Une vision personnelle du barbering masculin</h2>
-          <p class="section-text" data-i18n="aboutP1">
-            Je m'appelle Chris, coiffeur-barbier spécialisé dans l'univers masculin. Après plus de dix années d'apprentissage et d'expérience, j'ai créé un salon pensé par moi, pour offrir un résultat unique qui te ressemble.
-          </p>
-          <p class="section-text" data-i18n="aboutP2">
-            Mon engagement est simple: écouter, comprendre et révéler la personnalité de chaque client. Ici, chaque détail est construit avec passion, exigence et respect du style de chacun.
-          </p>
-
-          <div class="mt-8 rounded-3xl border border-[#d7b98e40] bg-[#101010d6] p-6">
-            <h3 class="font-display text-3xl uppercase tracking-[0.08em] text-[#f5ecde]" data-i18n="aboutCommitTitle">Mon savoir-faire</h3>
-            <ul class="mt-4 grid gap-3 text-sm text-[#e8dece] md:grid-cols-2">
-              <li class="chip" data-i18n="aboutSkill1">Coupes modernes et classiques</li>
-              <li class="chip" data-i18n="aboutSkill2">Barbes sculptées avec précision</li>
-              <li class="chip" data-i18n="aboutSkill3">Techniques traditionnelles de barber</li>
-              <li class="chip" data-i18n="aboutSkill4">Adaptation à chaque visage</li>
-              <li class="chip" data-i18n="aboutSkill5">Mèches / coloration naturelle</li>
-            </ul>
+        <article class="reveal grid items-stretch gap-6 lg:min-h-[500px] lg:grid-cols-[0.95fr_1.05fr]">
+          <figure class="about-photo-frame tilt-card">
+            <img src="assets/media/photos/a-propos.png" alt="Portrait de Chris" class="about-photo-img h-full min-h-[340px] md:min-h-[460px] w-full object-cover" />
+          </figure>
+          <div class="h-full rounded-3xl border border-[#ffffff26] bg-[#101010de] p-6 lg:flex lg:flex-col lg:justify-center">
+            <p class="section-text mt-0" data-i18n="aboutP1">
+              Après plus de dix années d'apprentissage, d'expérience et de travail acharné, j'ai décidé de créer mon propre salon, entièrement pensé par moi et dédié aux hommes. Chaque détail, chaque outil, chaque mètre carré a été réfléchi et gagné à la sueur du front.
+            </p>
+            <p class="section-text" data-i18n="aboutP3">
+              J'ai choisi ce métier parce qu'il me passionne : donner du style, de la confiance et une allure unique à chaque homme qui passe entre mes mains.
+            </p>
           </div>
+        </article>
+
+        <article class="reveal mt-6 grid items-stretch gap-6 lg:min-h-[500px] lg:grid-cols-[1.05fr_0.95fr]" data-delay="100">
+          <div class="h-full rounded-3xl border border-[#ffffff26] bg-[#101010de] p-6 lg:flex lg:flex-col lg:justify-center">
+            <p class="section-text mt-0" data-i18n="aboutP2">
+              Mr Chris, c'est bien plus qu'un simple barbershop : c'est le résultat de passion, de détermination et de travail intense. Aujourd'hui, j'ai l'honneur d'accueillir ma clientèle dans un espace qui reflète ma vision du barber : un résultat unique, qui te ressemble.
+            </p>
+            <p class="section-text mt-5" data-i18n="aboutP4">
+              Mon engagement est simple : mettre en valeur la personnalité de chacun et révéler ce qui le rend différent.
+            </p>
+          </div>
+          <figure class="about-photo-frame tilt-card" data-delay="120">
+            <img src="assets/media/photos/coiffage.png" alt="Intérieur du salon" class="about-photo-img h-full min-h-[340px] md:min-h-[460px] w-full object-cover" />
+          </figure>
+        </article>
+
+        <div class="reveal mt-6 rounded-3xl border border-[#d7b98e40] bg-[#0f0f0f] p-6" data-delay="160">
+          <h3 class="font-display text-3xl uppercase tracking-[0.08em] text-[#f5ecde]" data-i18n="aboutCommitTitle">Mon savoir-faire</h3>
+          <ul class="mt-4 grid gap-3 text-sm text-[#e8dece] md:grid-cols-2">
+            <li class="chip" data-i18n="aboutSkill1">Coupes modernes et classiques</li>
+            <li class="chip" data-i18n="aboutSkill2">Barbes sculptées avec précision</li>
+            <li class="chip" data-i18n="aboutSkill3">Techniques traditionnelles de barber</li>
+            <li class="chip" data-i18n="aboutSkill4">Adaptation à chaque visage et à chaque style</li>
+            <li class="chip" data-i18n="aboutSkill5">Mèche/coloration</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -171,10 +201,11 @@
       <div class="mx-auto w-[min(1200px,100%)]">
         <div class="reveal mb-10 text-center">
           <p class="section-kicker" data-i18n="galleryLabel">Galerie / Nos réalisations</p>
-          <h2 class="section-title" data-i18n="galleryTitle">Du style au détail, chaque coupe raconte une histoire</h2>
+          <h2 class="section-title" data-i18n="galleryTitle">Du style au détail, chaque coupe raconte une histoire.</h2>
           <p class="section-text mx-auto max-w-3xl" data-i18n="galleryIntro">
-            Avant / après, finitions et transformations: une galerie pensée pour montrer la précision du résultat.
+            Le résultat de notre savoir-faire, pour que chaque homme se sente à sa place.
           </p>
+          <p class="mx-auto mt-3 max-w-3xl text-sm italic text-[#d8c5aa]" data-i18n="galleryNote">(Inclure photos avant/après)</p>
         </div>
 
         <div id="galleryGrid" class="grid gap-6 lg:grid-cols-3"></div>
