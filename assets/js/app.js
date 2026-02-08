@@ -505,6 +505,7 @@ function escapeHtml(input) {
 
 function applyTranslations(lang) {
   const dict = i18n[lang] || i18n.fr;
+  state.lang = lang;
   dom.html.lang = lang;
   dom.title.textContent = dict.title;
 
@@ -517,7 +518,6 @@ function applyTranslations(lang) {
   renderGallery();
   refreshCounterLocale(lang);
   localStorage.setItem("mrchris_lang", lang);
-  state.lang = lang;
 }
 
 function renderServices() {
