@@ -6,7 +6,8 @@
   <title>Mr Chris | Barbershop Bruxelles</title>
   <meta name="description" content="Mr Chris Barbershop à Bruxelles. Réservation en ligne, coupes modernes et classiques, barbe, rasage traditionnel." />
   <meta name="theme-color" content="#050505" />
-  <link rel="icon" type="image/svg+xml" href="assets/media/logo-mrchris.svg" />
+  <link rel="icon" type="image/png" href="assets/media/logo-mrchris.png" />
+  <link rel="apple-touch-icon" href="assets/media/logo-mrchris.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
@@ -23,7 +24,7 @@
   <header id="siteHeader" class="fixed inset-x-0 top-0 z-50 transition-all duration-500">
     <nav class="mx-auto flex w-[min(1200px,94%)] items-center justify-between rounded-full border border-[#ffffff1f] bg-[#0d0d0dc9] px-4 py-3 shadow-2xl backdrop-blur-xl md:px-6">
       <a href="#home" class="flex items-center gap-3">
-        <img src="assets/media/logo-mrchris.svg" alt="Mr Chris logo" class="h-10 w-10 rounded-full border border-[#d7b98e66] bg-[#0f0f0f] p-1" />
+        <img src="assets/media/logo-mrchris.png" alt="Mr Chris logo" class="h-12 w-12 object-cover" />
         <div class="leading-none">
           <p class="font-display text-2xl uppercase tracking-[0.14em] text-[#f5ecde]">MR CHRIS</p>
           <p class="text-[10px] uppercase tracking-[0.3em] text-[#d7b98e]">Barbershop Bruxelles</p>
@@ -78,24 +79,48 @@
       <div class="hero-vignette" aria-hidden="true"></div>
       <div class="hero-grid" aria-hidden="true"></div>
 
-      <div class="relative z-[2] mx-auto flex min-h-[84vh] w-[min(1200px,100%)] flex-col justify-end">
-        <article class="reveal reveal-left max-w-3xl rounded-[30px] border border-[#ffffff38] bg-[#060606a8] p-6 backdrop-blur-md sm:p-8">
+      <div class="relative z-[2] mx-auto flex min-h-[84vh] w-[min(1200px,100%)] flex-col items-center justify-center">
+        <article class="reveal max-w-3xl rounded-[30px] border border-[#ffffff38] bg-[#060606a8] p-6 text-center backdrop-blur-md sm:p-8">
           <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-[#d7b98e66] bg-[#101010d1] px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#d7b98e]" data-i18n="heroBadge">
             Accueil
           </p>
-          <h1 class="font-display text-5xl uppercase leading-[0.95] text-[#f5ecde] sm:text-6xl lg:text-7xl" data-i18n="heroTitle">
-            Mr Chris – Barbershop à Bruxelles
+          <h1 class="font-display leading-[0.95] text-[#f5ecde]">
+            <span class="block text-5xl uppercase sm:text-6xl lg:text-7xl" data-i18n="heroTitleMain">Mr Chris</span>
+            <span class="mt-2 block text-lg uppercase tracking-[0.18em] text-[#d7b98e] sm:text-xl lg:text-2xl" data-i18n="heroTitleSub">Barbershop à Bruxelles</span>
           </h1>
-          <p class="mt-6 max-w-2xl text-base leading-relaxed text-[#f4eadb] sm:text-lg" data-i18n="heroSubtitle">
+          <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-[#f4eadb] sm:text-lg" data-i18n="heroSubtitle">
             Salon de coiffure masculin situé à rue de la Montagne 29, en plein coeur de Bruxelles, à deux pas de la Grand-Place.
           </p>
-          <div class="mt-8 flex flex-wrap gap-3">
+          <div class="mt-8 flex flex-wrap justify-center gap-3">
             <a class="btn-primary" data-booking-link target="_blank" rel="noopener noreferrer" data-i18n="heroPrimaryBtn">Prendre rendez-vous</a>
             <a href="#services" class="btn-ghost" data-i18n="heroSecondaryBtn">Voir les prestations</a>
           </div>
+          <div class="hero-socials mt-6 flex items-center justify-center gap-3" aria-label="Réseaux sociaux">
+            <a href="https://www.instagram.com/mrchris.barbershop/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3.5" y="3.5" width="17" height="17" rx="5" ry="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <circle cx="17.5" cy="6.5" r="1"></circle>
+              </svg>
+              <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://wa.me/32487905961" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="8.5"></circle>
+                <path d="M8.8 15.9l0.7-2.1"></path>
+                <path d="M10.2 9.5c0.1-0.2 0.3-0.3 0.5-0.3h0.3c0.1 0 0.3 0 0.4 0.2l0.7 1.5c0.1 0.2 0.1 0.3 0 0.5l-0.3 0.4c-0.1 0.1-0.1 0.2 0 0.3c0.2 0.5 0.8 1.1 1.3 1.5c0.6 0.4 1.1 0.6 1.5 0.7c0.2 0.1 0.3 0 0.4-0.1l0.4-0.5c0.1-0.1 0.3-0.2 0.4-0.1l1.4 0.6c0.2 0.1 0.3 0.2 0.3 0.4v0.3c0 0.3-0.1 0.5-0.4 0.7c-0.3 0.2-0.7 0.4-1.2 0.4c-0.8 0-1.7-0.2-2.8-0.8c-1.6-0.9-2.8-2.4-3.1-3c-0.3-0.6-0.4-1.1-0.4-1.5s0.1-0.8 0.3-1.1z"></path>
+              </svg>
+              <span class="sr-only">WhatsApp</span>
+            </a>
+            <a href="https://www.facebook.com/mrchris.barbershop" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 3h-3a5 5 0 0 0-5 5v3H4v4h3v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </div>
         </article>
-
-        <div class="mt-5 grid gap-4 sm:grid-cols-3">
+        <div class="mt-5 grid w-full gap-4 sm:grid-cols-3">
           <article class="stat-card reveal" data-delay="80">
             <p class="stat-value" data-counter="10">0</p>
             <p class="stat-label" data-i18n="statYearsLabel">Ans d'expérience</p>
@@ -143,44 +168,38 @@
           <h2 class="section-title mx-auto max-w-5xl" data-i18n="aboutTitle">Je m'appelle Chris, coiffeur-barbier spécialisé dans l'univers masculin.</h2>
         </div>
 
-        <article class="reveal grid items-stretch gap-6 lg:min-h-[500px] lg:grid-cols-[0.95fr_1.05fr]">
-          <figure class="about-photo-frame tilt-card">
-            <img src="assets/media/photos/a-propos.png" alt="Portrait de Chris" class="about-photo-img h-full min-h-[340px] md:min-h-[460px] w-full object-cover" />
-          </figure>
-          <div class="h-full rounded-3xl border border-[#ffffff26] bg-[#101010de] p-6 lg:flex lg:flex-col lg:justify-center">
+        <article class="reveal rounded-3xl border border-[#ffffff26] bg-[#101010de] p-6 sm:p-8">
+          <div class="grid gap-6 lg:grid-cols-2">
             <p class="section-text mt-0" data-i18n="aboutP1">
               Après plus de dix années d'apprentissage, d'expérience et de travail acharné, j'ai décidé de créer mon propre salon, entièrement pensé par moi et dédié aux hommes. Chaque détail, chaque outil, chaque mètre carré a été réfléchi et gagné à la sueur du front.
             </p>
-            <p class="section-text" data-i18n="aboutP3">
-              J'ai choisi ce métier parce qu'il me passionne : donner du style, de la confiance et une allure unique à chaque homme qui passe entre mes mains.
+            <p class="section-text mt-0" data-i18n="aboutP2">
+              Mr Chris, c'est bien plus qu'un simple barbershop : c'est le résultat de passion, de détermination et de travail intense. Aujourd'hui, j'ai l'honneur d'accueillir ma clientèle dans un espace qui reflète ma vision du barber : un résultat unique, qui te ressemble.
             </p>
           </div>
         </article>
 
-        <article class="reveal mt-6 grid items-stretch gap-6 lg:min-h-[500px] lg:grid-cols-[1.05fr_0.95fr]" data-delay="100">
-          <div class="h-full rounded-3xl border border-[#ffffff26] bg-[#101010de] p-6 lg:flex lg:flex-col lg:justify-center">
-            <p class="section-text mt-0" data-i18n="aboutP2">
-              Mr Chris, c'est bien plus qu'un simple barbershop : c'est le résultat de passion, de détermination et de travail intense. Aujourd'hui, j'ai l'honneur d'accueillir ma clientèle dans un espace qui reflète ma vision du barber : un résultat unique, qui te ressemble.
+        <article class="reveal mt-6 grid items-stretch gap-6 lg:grid-cols-[1.05fr_0.95fr]" data-delay="100">
+          <div class="h-full rounded-3xl border border-[#d7b98e40] bg-[#0f0f0f] p-6 sm:p-8 lg:flex lg:flex-col lg:justify-center">
+            <h3 class="font-display text-3xl uppercase tracking-[0.08em] text-[#f5ecde]" data-i18n="aboutCommitTitle">Mon savoir-faire</h3>
+            <p class="section-text mt-4" data-i18n="aboutP3">
+              J'ai choisi ce métier parce qu'il me passionne : donner du style, de la confiance et une allure unique à chaque homme qui passe entre mes mains.
             </p>
-            <p class="section-text mt-5" data-i18n="aboutP4">
+            <p class="section-text mt-4" data-i18n="aboutP4">
               Mon engagement est simple : mettre en valeur la personnalité de chacun et révéler ce qui le rend différent.
             </p>
+            <ul class="mt-5 grid gap-3 text-sm text-[#e8dece] md:grid-cols-2">
+              <li class="chip" data-i18n="aboutSkill1">Coupes modernes et classiques</li>
+              <li class="chip" data-i18n="aboutSkill2">Barbes sculptées avec précision</li>
+              <li class="chip" data-i18n="aboutSkill3">Techniques traditionnelles de barber</li>
+              <li class="chip" data-i18n="aboutSkill4">Adaptation à chaque visage et à chaque style</li>
+              <li class="chip" data-i18n="aboutSkill5">Mèche/coloration</li>
+            </ul>
           </div>
           <figure class="about-photo-frame tilt-card" data-delay="120">
             <img src="assets/media/photos/coiffage.png" alt="Intérieur du salon" class="about-photo-img h-full min-h-[340px] md:min-h-[460px] w-full object-cover" />
           </figure>
         </article>
-
-        <div class="reveal mt-6 rounded-3xl border border-[#d7b98e40] bg-[#0f0f0f] p-6" data-delay="160">
-          <h3 class="font-display text-3xl uppercase tracking-[0.08em] text-[#f5ecde]" data-i18n="aboutCommitTitle">Mon savoir-faire</h3>
-          <ul class="mt-4 grid gap-3 text-sm text-[#e8dece] md:grid-cols-2">
-            <li class="chip" data-i18n="aboutSkill1">Coupes modernes et classiques</li>
-            <li class="chip" data-i18n="aboutSkill2">Barbes sculptées avec précision</li>
-            <li class="chip" data-i18n="aboutSkill3">Techniques traditionnelles de barber</li>
-            <li class="chip" data-i18n="aboutSkill4">Adaptation à chaque visage et à chaque style</li>
-            <li class="chip" data-i18n="aboutSkill5">Mèche/coloration</li>
-          </ul>
-        </div>
       </div>
     </section>
 
@@ -188,9 +207,9 @@
       <div class="mx-auto w-[min(1200px,100%)]">
         <div class="reveal mb-10 text-center">
           <p class="section-kicker" data-i18n="servicesLabel">Services / Nos prestations</p>
-          <h2 class="section-title mx-auto max-w-4xl" data-i18n="servicesTitle">Offre de lancement et prestations sur mesure</h2>
+          <h2 class="section-title mx-auto max-w-4xl" data-i18n="servicesTitle">Nos offre &amp; tarifs</h2>
           <p class="section-text mx-auto max-w-3xl" data-i18n="servicesIntro">
-            Du classique au moderne, chaque service est adapté à ton visage, ton style et ton rythme. Les prix barrés indiquent le tarif initial.
+            Le savoir-faire au service de votre style.
           </p>
         </div>
         <div id="servicesGrid" class="grid gap-5 md:grid-cols-2 xl:grid-cols-3"></div>
@@ -205,7 +224,6 @@
           <p class="section-text mx-auto max-w-3xl" data-i18n="galleryIntro">
             Le résultat de notre savoir-faire, pour que chaque homme se sente à sa place.
           </p>
-          <p class="mx-auto mt-3 max-w-3xl text-sm italic text-[#d8c5aa]" data-i18n="galleryNote">(Inclure photos avant/après)</p>
         </div>
 
         <div id="galleryGrid" class="grid gap-6 lg:grid-cols-3"></div>
@@ -273,9 +291,9 @@
       <div class="mx-auto w-[min(1200px,100%)]">
         <div class="reveal mb-10 text-center">
           <p class="section-kicker" data-i18n="contactLabel">Contact</p>
-          <h2 class="section-title" data-i18n="contactTitle">Passez au salon ou contactez-nous</h2>
+          <h2 class="section-title" data-i18n="contactTitle">Contactez-nous</h2>
           <p class="section-text mx-auto max-w-3xl" data-i18n="contactIntro">
-            Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 10h à 20h.
+            Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 11h à 22h.
           </p>
         </div>
 
@@ -342,7 +360,7 @@
   </main>
 
   <footer class="border-t border-[#ffffff1c] bg-[#090909] px-4 py-10 md:px-8">
-    <div class="mx-auto grid w-[min(1200px,100%)] gap-8 md:grid-cols-3">
+    <div class="mx-auto grid w-[min(1200px,100%)] gap-8 md:grid-cols-2">
       <div>
         <p class="font-display text-4xl uppercase tracking-[0.1em] text-[#f5ecde]">MR CHRIS</p>
         <p class="mt-3 max-w-sm text-sm text-[#ddcfb8]" data-i18n="footerTagline">Révéler l'identité de chaque homme, avec justesse et style.</p>
@@ -350,19 +368,9 @@
 
       <div>
         <p class="text-xs uppercase tracking-[0.2em] text-[#d7b98e]" data-i18n="footerHoursTitle">Horaires</p>
-        <p class="mt-3 text-sm text-[#e9decd]" data-i18n="footerHoursWeek">Lundi à samedi: 10h00 - 20h00</p>
+        <p class="mt-3 text-sm text-[#e9decd]" data-i18n="footerHoursWeek">Lundi à samedi: 11h00 - 22h00</p>
         <p class="mt-1 text-sm text-[#e9decd]" data-i18n="footerHoursSun">Dimanche: fermé</p>
         <p class="mt-3 text-sm text-[#e9decd]" data-i18n="footerWalkIn">Avec ou sans réservation</p>
-      </div>
-
-      <div>
-        <p class="text-xs uppercase tracking-[0.2em] text-[#d7b98e]" data-i18n="footerSocialTitle">Réseaux</p>
-        <div class="mt-3 flex flex-col gap-2 text-sm">
-          <a href="https://www.mrchris.be" target="_blank" rel="noopener noreferrer" class="contact-link">www.mrchris.be</a>
-          <a href="https://www.instagram.com/mrchris.barbershop/" target="_blank" rel="noopener noreferrer" class="contact-link">Instagram: @mrchris.barbershop</a>
-          <a href="https://www.facebook.com/mrchris.barbershop" target="_blank" rel="noopener noreferrer" class="contact-link">Facebook: mrchris.barbershop</a>
-          <a href="mailto:info@mrchris.be" class="contact-link">info@mrchris.be</a>
-        </div>
       </div>
     </div>
   </footer>

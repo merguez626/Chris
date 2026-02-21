@@ -1,15 +1,15 @@
 ﻿
 const serviceCards = [
   {
-    badge: "Offre lancement",
+    badge: "Service",
     title: "Coupe de cheveux",
     desc: "Coupes modernes ou classiques adaptées à votre visage et à votre style.",
     duration: "30 min",
-    oldPrice: "25€",
+    oldPrice: "20€",
     newPrice: "20€"
   },
   {
-    badge: "Offre lancement",
+    badge: "Service",
     title: "Barbe",
     desc: "Sculpture et entretien précis pour un rendu élégant et harmonieux.",
     duration: "15-20 min",
@@ -17,7 +17,7 @@ const serviceCards = [
     newPrice: "15€"
   },
   {
-    badge: "Offre lancement",
+    badge: "Service",
     title: "Rasage traditionnel",
     desc: "Techniques classiques de barbier pour un confort optimal et un résultat soigné.",
     duration: "30 min",
@@ -25,12 +25,12 @@ const serviceCards = [
     newPrice: "25€"
   },
   {
-    badge: "Offre lancement",
+    badge: "Offre de lancement",
     title: "Coupe + barbe",
     desc: "Pack complet avec finition cheveux et barbe pour une allure nette.",
     duration: "45 min",
     oldPrice: "30€",
-    newPrice: "30€"
+    newPrice: "25€"
   },
   {
     badge: "Service",
@@ -41,7 +41,7 @@ const serviceCards = [
     newPrice: "15€"
   },
   {
-    badge: "Offre lancement",
+    badge: "Service",
     title: "Coloration / mèches",
     desc: "Coloration adaptée au style et à la carnation pour un résultat naturel.",
     duration: "45 min",
@@ -97,22 +97,22 @@ const localizedContent = {
   nl: {
     services: [
       {
-        badge: "Lanceringsdeal",
+        badge: "Service",
         title: "Herenknipbeurt",
         desc: "Moderne of klassieke coupes, afgestemd op je gezicht en stijl."
       },
       {
-        badge: "Lanceringsdeal",
+        badge: "Service",
         title: "Baard",
         desc: "Nauwkeurige vormgeving en onderhoud voor een elegante look."
       },
       {
-        badge: "Lanceringsdeal",
+        badge: "Service",
         title: "Traditionele scheerbeurt",
         desc: "Klassieke barbertechnieken voor maximaal comfort en nette afwerking."
       },
       {
-        badge: "Lanceringsdeal",
+        badge: "Lanceringsaanbod",
         title: "Knipbeurt + baard",
         desc: "Volledig pakket met haar- en baardafwerking voor een strakke uitstraling."
       },
@@ -122,7 +122,7 @@ const localizedContent = {
         desc: "Verzorgde knipbeurt voor kinderen tot 10 jaar in een ontspannen sfeer."
       },
       {
-        badge: "Lanceringsdeal",
+        badge: "Service",
         title: "Kleuring / highlights",
         desc: "Kleur aangepast aan stijl en huidskleur voor een natuurlijk resultaat."
       },
@@ -161,17 +161,17 @@ const localizedContent = {
   en: {
     services: [
       {
-        badge: "Launch offer",
+        badge: "Service",
         title: "Haircut",
         desc: "Modern or classic cuts tailored to your face and style."
       },
       {
-        badge: "Launch offer",
+        badge: "Service",
         title: "Beard",
         desc: "Precise shaping and maintenance for an elegant look."
       },
       {
-        badge: "Launch offer",
+        badge: "Service",
         title: "Traditional shave",
         desc: "Classic barber techniques for comfort and a clean finish."
       },
@@ -186,7 +186,7 @@ const localizedContent = {
         desc: "Neat haircut for kids up to 10 years old in a relaxed atmosphere."
       },
       {
-        badge: "Launch offer",
+        badge: "Service",
         title: "Color / highlights",
         desc: "Color adapted to your style and skin tone for a natural result."
       },
@@ -237,6 +237,8 @@ const i18n = {
     floatingBooking: "Réserver",
     heroBadge: "Accueil",
     heroTitle: "Mr Chris – Barbershop à Bruxelles",
+    heroTitleMain: "Mr Chris",
+    heroTitleSub: "Barbershop à Bruxelles",
     heroSubtitle: "Salon de coiffure masculin situé à rue de la Montagne 29, en plein coeur de Bruxelles, à deux pas de la Grand-Place.",
     heroSubtitle2: "Que tu viennes pour un dégradé moderne, une coupe classique, un rasage traditionnel ou une barbe travaillée, tu seras accueilli dans un lieu à taille humaine, chaleureux et convivial. Ici, on t'écoute, on te connaît et tu te sens comme à la maison.",
     heroSubtitle3: "Notre objectif : révéler l'identité de chaque homme, avec justesse et style. Être barbier, ce n'est pas seulement couper des cheveux : c'est comprendre qui tu es et mettre en valeur ce qui te rend unique.",
@@ -265,8 +267,8 @@ const i18n = {
     aboutP3: "J'ai choisi ce métier parce qu'il me passionne : donner du style, de la confiance et une allure unique à chaque homme qui passe entre mes mains.",
     aboutP4: "Mon engagement est simple : mettre en valeur la personnalité de chacun et révéler ce qui le rend différent.",
     servicesLabel: "Services / Nos prestations",
-    servicesTitle: "Offre de lancement et prestations sur mesure",
-    servicesIntro: "Du classique au moderne, chaque service est adapté à ton visage, ton style et ton rythme. Les prix barrés indiquent le tarif initial.",
+    servicesTitle: "Nos offre & tarifs",
+    servicesIntro: "Le savoir-faire au service de votre style.",
     galleryLabel: "Galerie / Nos réalisations",
     galleryTitle: "Du style au détail, chaque coupe raconte une histoire.",
     galleryIntro: "Le résultat de notre savoir-faire, pour que chaque homme se sente à sa place.",
@@ -288,8 +290,8 @@ const i18n = {
     bookingExternalBtn: "Accéder à la réservation",
     bookingExternalNote: "Si vous n'avez pas encore de lien de réservation actif, remplacez simplement l'URL dans assets/js/app.js.",
     contactLabel: "Contact",
-    contactTitle: "Passez au salon ou contactez-nous",
-    contactIntro: "Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 10h à 20h.",
+    contactTitle: "Contactez-nous",
+    contactIntro: "Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 11h à 22h.",
     contactCardAddressTitle: "Adresse",
     contactCardRoute: "Itinéraire direct",
     contactCardPhoneTitle: "Téléphone",
@@ -310,7 +312,7 @@ const i18n = {
     modalTitle: "Bloquez votre créneau maintenant",
     footerTagline: "Révéler l'identité de chaque homme, avec justesse et style.",
     footerHoursTitle: "Horaires",
-    footerHoursWeek: "Lundi à samedi: 10h00 - 20h00",
+    footerHoursWeek: "Lundi à samedi: 11h00 - 22h00",
     footerHoursSun: "Dimanche: fermé",
     footerWalkIn: "Avec ou sans réservation",
     footerSocialTitle: "Réseaux",
@@ -331,6 +333,8 @@ const i18n = {
     floatingBooking: "Boeken",
     heroBadge: "Home",
     heroTitle: "Mr Chris - Barbershop in Brussel",
+    heroTitleMain: "Mr Chris",
+    heroTitleSub: "Barbershop in Brussel",
     heroSubtitle: "Herenkapsalon gelegen aan Rue de la Montagne 29, in het hart van Brussel, vlak bij de Grote Markt.",
     heroSubtitle2: "Of je nu komt voor een moderne fade, een klassieke snit, een traditionele scheerbeurt of een verzorgde baard, je wordt verwelkomd in een warme en gezellige zaak op mensenmaat.",
     heroSubtitle3: "Ons doel: de identiteit van elke man naar voren brengen met precisie en stijl. Barbier zijn betekent meer dan haar knippen: het is begrijpen wie je bent en benadrukken wat je uniek maakt.",
@@ -359,8 +363,8 @@ const i18n = {
     aboutP3: "Ik koos voor dit vak omdat het mijn passie is: stijl, zelfvertrouwen en een unieke uitstraling geven aan elke man die in mijn stoel zit.",
     aboutP4: "Mijn engagement is eenvoudig: de persoonlijkheid van iedereen versterken en laten zien wat hem anders maakt.",
     servicesLabel: "Diensten / Aanbod",
-    servicesTitle: "Lanceringsaanbod en diensten op maat",
-    servicesIntro: "Van klassiek tot modern: elke service wordt aangepast aan je gezicht, stijl en ritme. Doorgestreepte prijzen zijn de oorspronkelijke tarieven.",
+    servicesTitle: "Onze aanbiedingen & tarieven",
+    servicesIntro: "Vakmanschap in dienst van jouw stijl.",
     galleryLabel: "Galerij / Resultaten",
     galleryTitle: "Van stijl tot detail, elke snit vertelt een verhaal.",
     galleryIntro: "Het resultaat van ons vakmanschap, zodat elke man zich op zijn plaats voelt.",
@@ -382,8 +386,8 @@ const i18n = {
     bookingExternalBtn: "Ga naar reservatie",
     bookingExternalNote: "Heb je nog geen actieve reservatielink? Vervang dan gewoon de URL in assets/js/app.js.",
     contactLabel: "Contact",
-    contactTitle: "Kom langs of neem contact op",
-    contactIntro: "Met of zonder afspraak. We verwelkomen je van maandag tot zaterdag van 10u tot 20u.",
+    contactTitle: "Neem contact met ons op",
+    contactIntro: "Met of zonder afspraak. We verwelkomen je van maandag tot zaterdag van 11u tot 22u.",
     contactCardAddressTitle: "Adres",
     contactCardRoute: "Route plannen",
     contactCardPhoneTitle: "Telefoon",
@@ -404,7 +408,7 @@ const i18n = {
     modalTitle: "Reserveer je tijdslot nu",
     footerTagline: "De identiteit van elke man versterken met precisie en stijl.",
     footerHoursTitle: "Openingsuren",
-    footerHoursWeek: "Maandag tot zaterdag: 10:00 - 20:00",
+    footerHoursWeek: "Maandag tot zaterdag: 11:00 - 22:00",
     footerHoursSun: "Zondag: gesloten",
     footerWalkIn: "Met of zonder reservatie",
     footerSocialTitle: "Social",
@@ -425,6 +429,8 @@ const i18n = {
     floatingBooking: "Book",
     heroBadge: "Home",
     heroTitle: "Mr Chris - Barbershop in Brussels",
+    heroTitleMain: "Mr Chris",
+    heroTitleSub: "Barbershop in Brussels",
     heroSubtitle: "Men's barbershop located at Rue de la Montagne 29, in the heart of Brussels, just steps from Grand-Place.",
     heroSubtitle2: "Whether you come for a modern fade, a classic cut, a traditional shave or a shaped beard, you'll be welcomed in a warm and friendly place.",
     heroSubtitle3: "Our goal: reveal each man's identity with precision and style. Being a barber is more than cutting hair: it's understanding who you are and highlighting what makes you unique.",
@@ -453,8 +459,8 @@ const i18n = {
     aboutP3: "I chose this profession because it drives me: giving style, confidence and a unique look to every man who sits in my chair.",
     aboutP4: "My commitment is simple: highlight each personality and reveal what makes every client different.",
     servicesLabel: "Services",
-    servicesTitle: "Launch offer and tailored services",
-    servicesIntro: "From classic to modern, every service is adapted to your face, style and pace. Striked prices indicate the initial rates.",
+    servicesTitle: "Our offers & pricing",
+    servicesIntro: "Craftsmanship at the service of your style.",
     galleryLabel: "Gallery / Results",
     galleryTitle: "From style to detail, every cut tells a story.",
     galleryIntro: "The result of our know-how, so that every man feels in the right place.",
@@ -476,8 +482,8 @@ const i18n = {
     bookingExternalBtn: "Go to booking",
     bookingExternalNote: "If your booking link is not active yet, just replace the URL in assets/js/app.js.",
     contactLabel: "Contact",
-    contactTitle: "Visit the salon or contact us",
-    contactIntro: "With or without booking. Open Monday to Saturday from 10am to 8pm.",
+    contactTitle: "Contact us",
+    contactIntro: "With or without booking. Open Monday to Saturday from 11am to 10pm.",
     contactCardAddressTitle: "Address",
     contactCardRoute: "Get directions",
     contactCardPhoneTitle: "Phone",
@@ -498,7 +504,7 @@ const i18n = {
     modalTitle: "Lock your slot now",
     footerTagline: "Reveal every man's identity with precision and style.",
     footerHoursTitle: "Opening hours",
-    footerHoursWeek: "Monday to Saturday: 10:00 - 20:00",
+    footerHoursWeek: "Monday to Saturday: 11:00 - 22:00",
     footerHoursSun: "Sunday: closed",
     footerWalkIn: "Walk-ins welcome",
     footerSocialTitle: "Social",

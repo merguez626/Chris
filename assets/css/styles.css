@@ -149,6 +149,43 @@ body {
   color: #fff6e7;
 }
 
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #ffffff42;
+  background: #0d0d0dbd;
+  color: #f4e7d3;
+  transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  border-color: #d7b98e;
+  background: #d7b98e1f;
+  color: #f8dfbb;
+  box-shadow: 0 10px 24px #0000005c;
+}
+
 .floating-booking {
   position: fixed;
   right: 1rem;
@@ -438,16 +475,22 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 .price-old {
   color: #ac9e87;
   text-decoration: line-through;
+  font-size: 0.84rem;
+  letter-spacing: 0.03em;
 }
 
 .price-new {
   color: #f7deb8;
   font-weight: 800;
+  font-size: 1.14rem;
+  letter-spacing: 0.03em;
 }
 
 .gallery-card {
