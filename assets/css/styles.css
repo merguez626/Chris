@@ -703,6 +703,14 @@ body {
 }
 
 @media (max-width: 850px) {
+  .hero-overlay {
+    background: linear-gradient(110deg, #0303039f 10%, #03030366 46%, #030303a3 100%);
+  }
+
+  .hero-grid {
+    opacity: 0.1;
+  }
+
   .floating-booking {
     width: 72px;
     height: 72px;
