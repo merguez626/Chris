@@ -13,8 +13,8 @@ const serviceCards = [
     title: "Barbe",
     desc: "Sculpture et entretien précis pour un rendu élégant et harmonieux.",
     duration: "15-20 min",
-    oldPrice: "15€",
-    newPrice: "15€"
+    oldPrice: "10€",
+    newPrice: "10€"
   },
   {
     badge: "Service",
