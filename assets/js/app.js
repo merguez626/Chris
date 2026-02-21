@@ -5,16 +5,16 @@ const serviceCards = [
     title: "Coupe de cheveux",
     desc: "Coupes modernes ou classiques adaptées à votre visage et à votre style.",
     duration: "30 min",
-    oldPrice: "20€",
-    newPrice: "20€"
+    oldPrice: "25€",
+    newPrice: "25€"
   },
   {
     badge: "Service",
     title: "Barbe",
     desc: "Sculpture et entretien précis pour un rendu élégant et harmonieux.",
     duration: "15-20 min",
-    oldPrice: "10€",
-    newPrice: "10€"
+    oldPrice: "15€",
+    newPrice: "15€"
   },
   {
     badge: "Service",
@@ -47,6 +47,14 @@ const serviceCards = [
     duration: "45 min",
     oldPrice: "35€",
     newPrice: "35€"
+  },
+  {
+    badge: "Service",
+    title: "Soin visage express",
+    desc: "Vapozone, gommage, masque et soin pour une peau nette.",
+    duration: "35 min",
+    oldPrice: "30€",
+    newPrice: "30€"
   },
   {
     badge: "Extra",
@@ -127,6 +135,11 @@ const localizedContent = {
         desc: "Kleur aangepast aan stijl en huidskleur voor een natuurlijk resultaat."
       },
       {
+        badge: "Service",
+        title: "Express gelaatsverzorging",
+        desc: "Vapozone, scrub, masker en verzorging voor een zuivere huid."
+      },
+      {
         badge: "Extra",
         title: "Shampoo & verzorging",
         desc: "Voedt, beschermt en geeft glans aan het haar."
@@ -189,6 +202,11 @@ const localizedContent = {
         badge: "Service",
         title: "Color / highlights",
         desc: "Color adapted to your style and skin tone for a natural result."
+      },
+      {
+        badge: "Service",
+        title: "Express facial care",
+        desc: "Vapozone, scrub, mask and skincare for clear skin."
       },
       {
         badge: "Extra",
@@ -319,7 +337,7 @@ const i18n = {
     toastBooking: "Ouverture de votre email pour finaliser la réservation.",
     toastContact: "Ouverture de votre email pour envoyer votre message.",
     barberOptions: ["Peu importe", "Chris", "Yassin", "Rachid"],
-    serviceOptions: ["Coupe de cheveux", "Barbe", "Rasage traditionnel", "Coupe + barbe", "Coupe enfant (jusqu'à 10 ans)", "Coloration / mèches", "Shampoing & soin (extra)", "Épilation cire joues (extra)"]
+    serviceOptions: ["Coupe de cheveux", "Barbe", "Rasage traditionnel", "Coupe + barbe", "Coupe enfant (jusqu'à 10 ans)", "Coloration / mèches", "Soin visage express", "Shampoing & soin (extra)", "Épilation cire joues (extra)"]
   },
   nl: {
     title: "Mr Chris | Barbershop Brussel",
@@ -415,7 +433,7 @@ const i18n = {
     toastBooking: "Je e-mailclient wordt geopend om je reservatie af te ronden.",
     toastContact: "Je e-mailclient wordt geopend om je bericht te verzenden.",
     barberOptions: ["Maakt niet uit", "Chris", "Yassin", "Rachid"],
-    serviceOptions: ["Herenknipbeurt", "Baard", "Traditionele scheerbeurt", "Knipbeurt + baard", "Kindersnit (tot 10 jaar)", "Kleuring / highlights", "Shampoo & verzorging (extra)", "Wax wangen (extra)"]
+    serviceOptions: ["Herenknipbeurt", "Baard", "Traditionele scheerbeurt", "Knipbeurt + baard", "Kindersnit (tot 10 jaar)", "Kleuring / highlights", "Express gelaatsverzorging", "Shampoo & verzorging (extra)", "Wax wangen (extra)"]
   },
   en: {
     title: "Mr Chris | Barbershop Brussels",
@@ -511,7 +529,7 @@ const i18n = {
     toastBooking: "Opening your email app to finalize booking.",
     toastContact: "Opening your email app to send your message.",
     barberOptions: ["No preference", "Chris", "Yassin", "Rachid"],
-    serviceOptions: ["Haircut", "Beard", "Traditional shave", "Haircut + beard", "Kid haircut (up to 10 years)", "Color / highlights", "Shampoo & care (extra)", "Cheek wax (extra)"]
+    serviceOptions: ["Haircut", "Beard", "Traditional shave", "Haircut + beard", "Kid haircut (up to 10 years)", "Color / highlights", "Express facial care", "Shampoo & care (extra)", "Cheek wax (extra)"]
   }
 };
 

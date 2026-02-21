@@ -186,6 +186,16 @@ body {
   box-shadow: 0 10px 24px #0000005c;
 }
 
+.nav-social-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-social-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
 .floating-booking {
   position: fixed;
   right: 1rem;
