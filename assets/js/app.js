@@ -25,12 +25,12 @@ const serviceCards = [
     newPrice: "25€"
   },
   {
-    badge: "Offre de lancement",
+    badge: "Service",
     title: "Coupe + barbe",
     desc: "Pack complet avec finition cheveux et barbe pour une allure nette.",
     duration: "45 min",
     oldPrice: "30€",
-    newPrice: "25€"
+    newPrice: "30€"
   },
   {
     badge: "Service",
@@ -120,7 +120,7 @@ const localizedContent = {
         desc: "Klassieke barbertechnieken voor maximaal comfort en nette afwerking."
       },
       {
-        badge: "Lanceringsaanbod",
+        badge: "Service",
         title: "Knipbeurt + baard",
         desc: "Volledig pakket met haar- en baardafwerking voor een strakke uitstraling."
       },
@@ -189,7 +189,7 @@ const localizedContent = {
         desc: "Classic barber techniques for comfort and a clean finish."
       },
       {
-        badge: "Launch offer",
+        badge: "Service",
         title: "Haircut + beard",
         desc: "Full package with hair and beard finishing for a sharp look."
       },
@@ -309,7 +309,7 @@ const i18n = {
     bookingExternalNote: "Si vous n'avez pas encore de lien de réservation actif, remplacez simplement l'URL dans assets/js/app.js.",
     contactLabel: "Contact",
     contactTitle: "Contactez-nous",
-    contactIntro: "Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 11h à 22h.",
+    contactIntro: "Avec ou sans réservation. L'équipe vous accueille du lundi au samedi de 11h à 20h.",
     contactCardAddressTitle: "Adresse",
     contactCardRoute: "Itinéraire direct",
     contactCardPhoneTitle: "Téléphone",
@@ -330,7 +330,7 @@ const i18n = {
     modalTitle: "Bloquez votre créneau maintenant",
     footerTagline: "Révéler l'identité de chaque homme, avec justesse et style.",
     footerHoursTitle: "Horaires",
-    footerHoursWeek: "Lundi à samedi: 11h00 - 22h00",
+    footerHoursWeek: "Lundi à samedi: 11h00 - 20h00",
     footerHoursSun: "Dimanche: fermé",
     footerWalkIn: "Avec ou sans réservation",
     footerSocialTitle: "Réseaux",
@@ -405,7 +405,7 @@ const i18n = {
     bookingExternalNote: "Heb je nog geen actieve reservatielink? Vervang dan gewoon de URL in assets/js/app.js.",
     contactLabel: "Contact",
     contactTitle: "Neem contact met ons op",
-    contactIntro: "Met of zonder afspraak. We verwelkomen je van maandag tot zaterdag van 11u tot 22u.",
+    contactIntro: "Met of zonder afspraak. We verwelkomen je van maandag tot zaterdag van 11u tot 20u.",
     contactCardAddressTitle: "Adres",
     contactCardRoute: "Route plannen",
     contactCardPhoneTitle: "Telefoon",
@@ -426,7 +426,7 @@ const i18n = {
     modalTitle: "Reserveer je tijdslot nu",
     footerTagline: "De identiteit van elke man versterken met precisie en stijl.",
     footerHoursTitle: "Openingsuren",
-    footerHoursWeek: "Maandag tot zaterdag: 11:00 - 22:00",
+    footerHoursWeek: "Maandag tot zaterdag: 11:00 - 20:00",
     footerHoursSun: "Zondag: gesloten",
     footerWalkIn: "Met of zonder reservatie",
     footerSocialTitle: "Social",
@@ -501,7 +501,7 @@ const i18n = {
     bookingExternalNote: "If your booking link is not active yet, just replace the URL in assets/js/app.js.",
     contactLabel: "Contact",
     contactTitle: "Contact us",
-    contactIntro: "With or without booking. Open Monday to Saturday from 11am to 10pm.",
+    contactIntro: "With or without booking. Open Monday to Saturday from 11am to 8pm.",
     contactCardAddressTitle: "Address",
     contactCardRoute: "Get directions",
     contactCardPhoneTitle: "Phone",
@@ -522,7 +522,7 @@ const i18n = {
     modalTitle: "Lock your slot now",
     footerTagline: "Reveal every man's identity with precision and style.",
     footerHoursTitle: "Opening hours",
-    footerHoursWeek: "Monday to Saturday: 11:00 - 22:00",
+    footerHoursWeek: "Monday to Saturday: 11:00 - 20:00",
     footerHoursSun: "Sunday: closed",
     footerWalkIn: "Walk-ins welcome",
     footerSocialTitle: "Social",
@@ -546,7 +546,7 @@ const dom = {
 };
 
 const state = { lang: localStorage.getItem("mrchris_lang") || "fr" };
-const BOOKING_URL = "https://example.com/votre-lien-reservation";
+const BOOKING_URL = "https://salonkee.be/salon/mr-chris/widget/service?lang=fr";
 const contactTargetEmail = "info@mrchris.be";
 const contactCcEmail = "mrchris.barbershop@gmail.com";
 
